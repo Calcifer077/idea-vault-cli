@@ -1,0 +1,32 @@
+{
+  "name": "idea-vault-cli",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "calcifer077",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "list": "npx tsx index.ts list",
+    "create": "npx tsx index.ts create",
+    "update": "npx tsx index.ts update",
+    "delete": "npx tsx index.ts delete",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@inquirer/rawlist": "^5.2.8",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "dotenv": "^17.4.2",
+    "inquirer": "^13.4.2",
+    "marked": "^18.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
