@@ -79,10 +79,27 @@ GITHUB_BRANCH=GITHUB_BRANCH
 
 ---
 
-## 📁 Project Structure (simplified)
+## 📁 Project Structure
 
 ```
-
+idea-vault-cli/
+├── .gitignore
+├── commands/
+│   ├── create.ts
+│   ├── delete.ts
+│   ├── list.ts
+│   └── update.ts
+├── index.ts
+├── lib/
+│   ├── convertToMarkdown.ts
+│   ├── github.ts
+│   ├── parseMarkdown.ts
+│   ├── store.ts
+│   └── types.ts
+├── package.json
+├── pnpm-lock.yaml
+├── readme.MD
+└── tsconfig.json
 ```
 
 ---
@@ -107,11 +124,3 @@ npm run delete    # delete ideas
 If you find this project useful, consider giving it a ⭐
 
 ---
-
----
-
-### Entire project strucutre, for my understanding, feel free to skip:
-
-```
-
-```
